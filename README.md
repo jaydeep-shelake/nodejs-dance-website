@@ -4,13 +4,13 @@
 </div>
 <br>
 
-> This web application is made for  a dance club which has great UI 
+> This web application is made for  a dance club and web page has great UI and UX
 
 
 ## ⚙️ Detailed Functionality
 * From this web application any one  can acsess Dance studio website and get info about studio
 * Clients can fill the contact form and give their information like name email and contact details
-* And it will be stroed in databe
+* And it will be stored in the database
  
 ## 🚀 Tech and Tools Used
 

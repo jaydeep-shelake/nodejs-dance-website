@@ -20,7 +20,7 @@
 
 ## 📸 Screenshots
 ### home page
-<img src="node-dancejs.herokuapp.com_.png">
+<img src="node-dancejs.herokuapp.com_.png" width='400px' height="auto">
 
 ### contact page
 <img src="node-dancejs.herokuapp.com_contact.png" width="800px" height="600px">

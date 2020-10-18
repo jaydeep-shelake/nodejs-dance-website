@@ -1,7 +1,7 @@
 # nodejs-dance-website
 # Cart.js
 <div align="center">
-  <img width="200px" src="cart.png"/>
+  <img width="200px" src="https://img.icons8.com/dusk/2x/dancing.png"/>
 </div>
 <br>
 

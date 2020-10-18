@@ -1,5 +1,4 @@
 # nodejs-dance-website
-# Cart.js
 <div align="center">
   <img width="200px" src="https://img.icons8.com/dusk/2x/dancing.png"/>
 </div>
@@ -22,6 +21,7 @@
 ## 📸 Screenshots
 ### home page
 <img src="snapshot.png" width="800px" height="1200px">
+
 ### contact page
 <img src="snapshot.png" width="800px" height="1200px">
 link:https://node-dancejs.herokuapp.com/

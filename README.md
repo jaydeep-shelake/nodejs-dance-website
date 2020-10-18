@@ -20,8 +20,8 @@
 
 ## 📸 Screenshots
 ### home page
-<img src="snapshot.png" width="800px" height="1200px">
+<img src="node-dancejs.herokuapp.com_.png" width="800px" height="1200px">
 
 ### contact page
-<img src="snapshot.png" width="800px" height="1200px">
+<img src="node-dancejs.herokuapp.com_/contact_.png" width="800px" height="1200px">
 link:https://node-dancejs.herokuapp.com/

@@ -1,0 +1,70 @@
+@media only screen and (max-width:800px){
+    .section-1{
+        flex-direction: column;
+    }
+    .section-1 ,.img,.text{
+        width: 80%;
+        margin: auto;
+    }
+    .section-2{
+        flex-direction: column;
+    }
+    .section-2 .img,.text{
+        width: 80% !important;
+        margin: auto;
+    }
+    .card-1{
+        flex-direction: column;
+    }
+    .trainers{
+        padding-bottom: 5%;
+    }
+    .first-trainer {
+        flex-direction: column;
+        height: 100%;
+        
+    }
+    .first-trainer .first{
+        width: 90%
+    }
+    .first img{
+        height: 100%;
+        margin-top: 5%;
+    }
+
+}
+@media only screen and (max-width:660px){
+    nav ul{
+        flex-direction: column;
+        height: auto;
+    }
+    .nav-bar{
+        padding: 1rem 0;
+        height:0px;
+        height: 200px;
+        background: gray;
+        height:200px;
+        display: none;
+        transition: 0.4s;
+    }
+    .hide{
+        display: flex;
+        transition: 0.4s;
+    }
+    .burger{
+        position: absolute;
+        top: 2%;
+        right: 3%;
+        display: block;
+    }
+   .burger .line{
+        width: 30px;
+        height: 5px;
+        background: #f75c09;
+        margin: 5px 0;
+        border-radius: 1px;
+    }
+    .section-2 .img img{
+        margin-top: 5%;
+    }
+}

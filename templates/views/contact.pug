@@ -1,0 +1,27 @@
+doctype html
+
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title Dance Studio
+  link(rel='stylesheet' href='contact.css')
+.form
+  .img
+     img(src='images/danceBoy.jpg' alt='img')
+  form(action='/contact' method='POST')
+    input#name(type='text' name='name'  placeholder='Enter Name' )
+    input#email(type='text' name='email' placeholder='Enter Email')
+    input#number(type='text' name='number' placeholder='Enter Mob No.')
+    button#btn(type='submit') Submit
+
+.msg
+   p form submited sucsessfully
+.redmsg
+   p Please Fill information below!   
+footer
+ .footer
+    p &copy;Copyrights resevered @ Dance Studio 200      
+    p Web application developed by Jaydeep Shelake
+script(src='btn.js')   
+
+

@@ -1,0 +1,269 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Cousine', monospace;
+}
+body{
+    background: #030203;
+}
+.nav-bar{
+    width: 100%;
+    position:fixed;
+    top: 0;
+    background:transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 6.2rem;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+li{
+    list-style: none;
+    padding: 5px;
+}
+li a{
+    margin-left: 1.8rem;
+    margin-right: 1.8rem;
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+li a:hover{
+  color: #f75c09;
+  background: rgb(34, 34, 34);
+  padding: 1rem;
+}
+.section-1{
+    width: 100%;
+    padding: 15% 0;
+    margin-top: 5%;
+    background: #030203;
+    margin-top: -2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-1 .img,.text{
+    padding-top: 5%;
+}
+.text{
+   text-transform: uppercase;
+   color: #ffffff;
+   width: 50%;
+}
+.text h2{
+    font-size: 2.6rem;
+    line-height: 3.8rem;
+}
+.btn{
+    padding: 1rem;
+    background: #f75c09;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    margin-top: 3%;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.text h3{
+    color: #e9590c;
+    font-family: 'Yellowtail', cursive;
+    margin-bottom: -1rem;
+    font-size: 1.6rem;
+    margin-left: 3%;
+}
+.section-1 .img{
+    width: 50%;
+}
+.section-1 .img img{
+    width: 90%;
+    height: 90%;
+}
+h2 span{
+    margin-left: 6%;
+   color: rgb(105, 223, 37);
+   
+}
+.section-2{
+    width: 100%;
+    background: #070607;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-2 .text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10%;
+    
+
+}
+.section-2  .text p{
+  width: 80%;
+  line-height: 1.6rem;
+  text-transform: none;
+  color: rgb(191, 191, 191);
+  
+}
+.section-2  .text .p2{
+    margin-left: 13%;
+    margin-top: -10%;
+}
+.section-2 .img{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-2 .img img{
+    width: 90%;
+    height: 90%;
+}
+
+.section-3{
+    background: #070607;
+    padding-top: 6%;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    flex-direction: column;
+
+}
+.section-3 h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: 2.6rem;
+    
+    
+}
+.section-3 h3{
+    color: #e9590c;
+    font-family: 'Yellowtail', cursive;
+    margin-bottom: -0.8rem;
+    font-size: 2rem;
+    margin-left: 3%; 
+    text-align: center;
+
+}
+.card-1{
+    margin-top: 10%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    background: #090909;
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+}
+.card-1 .text{
+    width: 60%;
+    margin-left: 5%;
+}
+.card-1 .text h1{
+    text-align: start;
+}
+.card-1 p{
+    width: 80%;
+    text-transform: none;
+    line-height: 2rem;
+    padding-top: 3%;
+    color: rgb(175, 175, 175);
+}
+.card-1 span{
+    font-size: 2rem;
+}
+.card-1 .img{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-1 .img img{
+    width: 90%;
+    height: 90%;
+
+}
+.see-more{
+    width: 80%;
+    margin: auto;
+    background: #0e0e0e;
+    padding: 1rem;
+    color: #f75c09;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.trainers{
+    width: 80%;
+    margin: auto;
+    background: #0c0c0c;
+    
+    margin-top: 5%;
+}
+.trainers p{
+    color: rgb(191, 188, 188);
+    margin-top: 5%;
+    text-transform: none;
+    
+}
+.first-trainer{
+width: 100%;
+height: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 2%;
+padding-top: 5%;
+}
+.first-trainer button{
+    margin-top: 5%;
+}
+.first-trainer .text{
+    width: 33.33%;
+    margin-left: 2%;
+}
+.first-trainer .first{
+    width: 33.33%;
+    height: 100%;
+    margin-right: 1%;
+}
+.first img{
+    width: 100%;
+   height: 100%;
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    width: 100%;
+    height: 120px;
+    margin-top: 10%;
+}
+.footer{
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ font-size: 17px;
+ text-align: center;
+background-color: rgb(19, 18, 18);
+}
+.burger{
+    display: none;
+}
+

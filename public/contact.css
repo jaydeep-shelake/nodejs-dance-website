@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Cousine&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cousine', monospace;
+}
+
+body{
+    background: rgb(10, 10, 10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.form{
+   background: #111111;
+   width: 80%;
+   display: flex;
+   padding-top: 3%;
+   padding-bottom: 3%;
+   box-shadow: 2px 2px 12px rgb(0, 0, 0);
+}
+.img{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2%;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+}
+form{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+input{
+    background: transparent;
+    border:none;
+    border-bottom: 2px solid gray;
+    outline: none;
+    padding: 1rem;
+    margin-bottom: 2%;
+   width: 70%;
+   color: #f75c09;
+}
+input::placeholder{
+    color: #f75c09;
+}
+#btn{
+    padding: 1rem;
+    width: 120px;
+    background: #f75c09;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.msg{
+    width: 300px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: fixed;
+    top: -70px;
+    background: rgba(98, 238, 91, 0.87);
+    color: green;
+}
+.redmsg{
+    width: 300px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: fixed;
+    top: -70px;
+    background: rgba(237, 115, 127, 0.87);
+    color:rgb(255, 0, 34);
+    font-weight: 800;
+}
+.show{
+    top: 1%;
+    transition: 0.4s;
+}
+footer{
+    width: 100%;
+    height: 120px;
+    margin-top: 10%;
+}
+.footer{
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ font-size: 17px;
+ text-align: center;
+background-color: rgb(19, 18, 18);
+}
+@media only screen and (max-width:620px){
+   .form{
+       flex-direction: column;
+       width: 80%;
+       align-items: center;
+       justify-content: center;
+   }
+   input{
+       width: 100%;
+   }
+   .img{
+       width: 100%;
+       padding: 0;
+   }
+   .img img{
+       width: 90%;
+       height: 90%;
+   }
+}
+@media only screen and (max-width:396px){
+    .form{
+        width: 90%;
+    }
+}

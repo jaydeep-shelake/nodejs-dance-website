@@ -9,7 +9,7 @@ const app = express();
 const public = path.join(__dirname,'../public');
 const views = path.join(__dirname,'../templates/views');
 
-const url ='mongodb://localhost:27017/jaydeepKart';
+const url =  process.env.MONGODB_URI ||'mongodb://localhost:27017/jaydeepKart';
 const connect = mongoose.connect(url,{useNewUrlParser:true,useUnifiedTopology: true })
 .then(()=>{ console.log('connected to database..');});
 
